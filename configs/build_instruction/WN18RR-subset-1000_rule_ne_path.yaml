@@ -1,0 +1,5 @@
+dataset: WN18RR-subset         # 可选: FB15k-237-subset, NELL-995-subset, WN18RR-subset
+setting: transductive                # 可选: inductive, transductive
+train_size: 1000                 # 可选: full, 1000, 2000
+max_path_hops: 3                 # 整数，路径的最大跳数
+instruction_type: rule_ne_path  # 可选: rule_path, rule_ne_path

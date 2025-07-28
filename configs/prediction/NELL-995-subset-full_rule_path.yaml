@@ -1,0 +1,6 @@
+dataset: NELL-995-subset         # 可选: FB15k-237-subset, NELL-995-subset, WN18RR-subset
+setting: transductive                # 可选: inductive, transductive
+train_size: full                 # 可选: full, 1000, 2000
+max_path_hops: 3                 # 整数，路径的最大跳数
+model: saved_llm/Qwen2-7B-Instruct-lora-NELL-995-subset-full-rule_path/checkpoint-3125  # 模型名称/路径
+instruction_type: rule_path
