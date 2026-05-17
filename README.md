@@ -60,10 +60,6 @@ python build_instruction.py --config [conifg files]
 ```
 All configuration files are located in the `\configs` directory.
 
-## Acknowledgement
-
-This repo benefits from [CATS](https://github.com/DataArcTech/CATS), [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). Thanks for their wonderful works.
-
 
 ## 🔒 Anonymity Notice
 This repository is anonymized for double-blind review. All identifiable information such as author names or institutional affiliations has been removed or masked.
