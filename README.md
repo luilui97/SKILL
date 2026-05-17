@@ -1,7 +1,6 @@
-# SKILL: Injecting Structural Knowledge into Large Language Models for Inductive Graph Reasoning
+# Structural Knowledge Induced Logical Learning for LLM Reasoning over Knowledge Graphs
 
-**AAAI 2026 Submission**  
-**Paper Title**: *SKILL: Injecting Structural Knowledge into Large Language Models for Inductive Graph Reasoning*
+**Paper Title**: *Structural Knowledge Induced Logical Learning for LLM Reasoning over Knowledge Graphs*
 
 > **TL;DR**: SKILL is a novel framework that injects symbolic structural rules into large language models (LLMs) to enhance their reasoning abilities on knowledge graphs under inductive settings.
 
@@ -20,12 +19,12 @@
 
 SKILL consists of two main modules:
 
-1. **Rule-Miner Module**  
+1. **Constraint-Synthesizer**  
    - Extracts symbolic rules from closed paths in the KG.  
    - Uses LLM one-shot prompting to assess **semantic validity**.  
    - Filters out spurious co-occurrence patterns.
 
-2. **Rule-Injected Reasoning Module**  
+2. **Logic-enhanced Reasoning**  
    - Fine-tunes the LLM with **valid symbolic rules** as explicit guidance.  
    - Enhances the LLM’s ability to understand and leverage KG structure.
 
